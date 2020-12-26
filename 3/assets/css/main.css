@@ -1282,7 +1282,7 @@
 				border-radius: 30px;
 			}
 
-				#header .inner .button.hidden {
+				#header .inner .b.hidden {
 					display: none;
 					cursor: pointer;
 				}
@@ -1322,7 +1322,7 @@
 				display: none;
 			}
 
-			#header.hide .button.hidden, #header.preview .button.hidden {
+			#header.hide .b.hidden, #header.preview .b.hidden {
 				text-decoration: none;
 				padding-top: 1.5em;
 				padding-left: 0;
@@ -1331,7 +1331,7 @@
 				display: inline-block;
 			}
 
-				#header.hide .button.hidden:before, #header.preview .button.hidden:before {
+				#header.hide .b.hidden:before, #header.preview .b.hidden:before {
 					-moz-osx-font-smoothing: grayscale;
 					-webkit-font-smoothing: antialiased;
 					font-family: FontAwesome;
@@ -1340,13 +1340,13 @@
 					text-transform: none !important;
 				}
 
-				#header.hide .button.hidden:before, #header.preview .button.hidden:before {
+				#header.hide .b.hidden:before, #header.preview .b.hidden:before {
 					content: '\f015';
 					color: #FFF;
 					font-size: 1.5em;
 				}
 
-				#header.hide .button.hidden span, #header.preview .button.hidden span {
+				#header.hide .b.hidden span, #header.preview .b.hidden span {
 					display: none;
 				}
 
